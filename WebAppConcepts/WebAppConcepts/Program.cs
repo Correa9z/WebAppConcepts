@@ -28,6 +28,22 @@ namespace WebAppConcepts
                 
                 Console.WriteLine("The date entereer is: " + dateObject);
 
+
+                Employee salaryEmployee = new SalaryEmployee()
+                {
+                   Id = 1,
+                   FirstName = "Patricia",
+                   LastName = "Alvarez",
+                   BirthDate = dateObject,
+                   HiringDate = dateObject,
+                   IsActive = true,
+                   Salary = 1160000
+                };
+
+
+                Console.WriteLine(salaryEmployee);
+                
+
             }
             catch (Exception e)
             {
