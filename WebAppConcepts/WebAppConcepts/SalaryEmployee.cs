@@ -4,11 +4,13 @@ using System.Text;
 
 namespace WebAppConcepts
 {
-    public class SalaryEmployee : Employee
+    public class CommissionEmployee : Employee
     {
         #region Properties
 
         public decimal Salary { get; set; }
+        public double CommissionPercentage { get; internal set; }
+        public int Sales { get; internal set; }
 
         #endregion
 
